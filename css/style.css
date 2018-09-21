@@ -1,0 +1,25 @@
+body {
+  width: 100%;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+#slider {
+  position: absolute;
+  left: 0;
+  top: -100px;
+  width: 100%;
+  background: url(https://irtech.biz/TF/brinlo/assets/img/bg/header-bg.jpg);
+  padding-top: 100px;
+  height: 1000px;
+}
+#slider .headerOverlay {
+  position: absolute;
+  top: 0;
+  background: #6b6a86;
+  opacity: 0.5;
+}

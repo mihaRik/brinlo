@@ -1,0 +1,15 @@
+#slider{
+    position: absolute;
+    left: 0;
+    top:-100px;
+    width: 100%;
+    background: url(https://irtech.biz/TF/brinlo/assets/img/bg/header-bg.jpg);
+    padding-top: 100px;
+    height: 1000px;
+    .headerOverlay{
+        position: absolute;
+        top: 0;
+        background: $mainColor;
+        opacity: 0.5;
+    }
+}
